@@ -1,0 +1,409 @@
+body {
+    background-color: #6D9886;
+  }
+  .nav {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+  }
+  
+  .element {
+    padding: 5px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #885353;
+    font-family: "Caveat", cursive;
+  }
+  
+  .element:hover {
+    color: #D9CAB3;
+    font-size: 35px;
+  }
+  
+  .start {
+    margin-right: auto;
+    font-weight: bolder;
+    color: #D9CAB3;
+    font-size: 35px;
+  }
+  
+  .box {
+    display: flex;
+  }
+  
+  .boxTwo {
+    display: flex;
+  }
+  
+  .miniBox {
+    height: 100vh;
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .one {
+    background-image: url(1.jpg);
+  }
+  
+  .two {
+    background-image: url(2.jpg);
+  }
+  
+  .three {
+    background-image: url(3.1.jpg);
+  }
+  
+  .four {
+    background-image: url(4.jpg);
+  }
+  
+  .five {
+    background-image: url(5.jpg);
+  }
+  
+  .six {
+    background-image: url(6.jpeg);
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-family: "Caveat", cursive;
+  }
+  
+  h1:hover {
+    color: #212121;
+  }
+  
+  .alignment {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h4 {
+    background-color: rgb(225, 250, 249);
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    border-radius: 10px;
+    font-size: 0px;
+  }
+  
+  .par {
+    background-color: rgb(225, 250, 249);
+    border-radius: 10px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 0px;
+  }
+  
+  .info {
+    background-color: rgb(225, 250, 249);
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 10px;
+    font-size: 0px;
+  }
+  
+  h3 {
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+  }
+  
+  h3:hover {
+    color: #212121;
+  }
+  .selected {
+    flex: 2;
+  }
+  
+  .selected h4 {
+    font-size: 20px;
+    transition: all 1s ease-in;
+  }
+  
+  .selected .par {
+    font-size: 15px;
+    transition: ease-in 1s all;
+  }
+  
+  .selected .info {
+    font-size: 18px;
+    transition: ease-in 1s all;
+  }
+  
+  .plan {
+    display: flex;
+  }
+  
+  .mini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 90px 5px 90px;
+    background-color: #82b6a0;
+  }
+  
+  h2,
+  p {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .btn {
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    padding: 10px 100px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #212121;
+    color: #D9CAB3;
+  }
+  
+  .btn:hover {
+    background-color: #ADC2A9;
+    color: black;
+  }
+  
+  .arrow {
+    align-self: center;
+  }
+  
+  .block {
+    background-color: #212121;
+    color: aliceblue;
+  }
+  
+  .heading {
+    font-family: "Caveat", cursive;
+    padding: 10px 20px;
+    font-size: 40px;
+  }
+  
+  label {
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    padding: 10px 20px;
+  }
+  
+  .textInput {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(239, 249, 255);
+    padding: 10px 20px;
+  }
+  
+  .btnTwo {
+    font-size: 40px;
+    font-family: "Caveat", cursive;
+    padding: 10px 100px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #212121;
+    background-color: #6D9886;
+    flex: 1;
+  }
+  
+  .btnTwo:hover {
+    background-color: #82b6a0;
+    color: black;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  li {
+    padding: 0px 20px;
+  }
+  
+  
+  
+  
+  @media all and (max-width: 800px) {
+    .nav {
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+    }
+  
+    .element {
+      padding: 5px 10px;
+      font-size: 20px;
+    }
+  
+    .element:hover {
+      font-size: 20px;
+    }
+  
+    .start {
+      font-size: 20px;
+    }
+    .box {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    
+    .boxTwo {
+    display: flex;
+  }
+  
+    h4 {
+    
+      top: 7px;
+      left: 10px;
+    }
+  
+    .par {
+     
+      top: 60px;
+      left: 10px;
+    }
+  
+    .info {
+      bottom: 10px;
+      left: 10px;
+    }
+  
+    h3 {
+      font-size: 25px;
+    }
+  
+    .plan {
+      display: flex;
+      flex-direction: column;
+    }
+    .mini {
+      margin: 4px;
+      padding: 3px 5px;
+    }
+  
+    .btn {
+      font-size: 18px;
+      padding: 2px 5px;
+      margin-top: 5px;
+    }
+    
+    li {
+        padding: 0px 8px;
+      }
+    
+    label {
+      font-size: 20px;
+      padding: 3px 5px;
+  }
+  
+  .textInput {
+      padding: 5px 10px;
+  }
+  
+      
+    .btnTwo {
+        font-size: 18px;
+        padding: 5px 10px;
+        margin-top: 3px;
+      }
+  }
+  
+  @media all and (max-width: 500px) {
+    .nav {
+      display: flex;
+      flex-direction: column;
+      padding: 4px;
+    }
+  
+    .element {
+      padding: 5px 8px;
+      font-size: 20px;
+    }
+  
+    .element:hover {
+      font-size: 20px;
+    }
+  
+    .start {
+      font-size: 20px;
+    }
+    
+    .box {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+  
+    h4 {
+      top: 3px;
+      left: 8px;
+    }
+  
+    .par {
+      top: 70px;
+      left: 8px;
+    }
+  
+    .info {
+      bottom: 5px;
+      left: 8px;
+    }
+  
+    h3 {
+      font-size: 22px;
+    }
+  
+    .plan {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .mini {
+      margin: 3px;
+      padding: 2px 3px;
+    }
+  
+    .btn {
+      font-size: 18px;
+      padding: 3px 8px;
+      margin-top: 5px;
+    }
+    
+    li {
+          padding: 0px 5px;
+      }
+    
+    label {
+      font-size: 20px;
+      padding: 3px 5px;
+      
+  }
+  
+  .textInput {
+      padding: 3px 5px;
+  }
+  
+  
+      
+    .btnTwo {
+        font-size: 18px;
+        padding: 5px 3px;
+        margin-top: 3px;
+         
+      }
+    
+    .boxTwo {
+    display: flex;
+  }
+  }
+  
